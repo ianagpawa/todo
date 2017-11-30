@@ -1,3 +1,5 @@
+
+
 function startPage() {
     const TodoForm = ({addTodo}) => {
 
@@ -75,6 +77,7 @@ function startPage() {
         }
     }
 
+    ReactDOM.render(<ToDoApp />, document.getElementById('container'));
 
 }
 
