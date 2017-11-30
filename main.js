@@ -29,6 +29,16 @@ function startPage() {
         return (<ul>{todoNode}</ul>);
     }
 
+    cons Title = () => {
+        return (
+            <div>
+                <div>
+                    <h1>to-do</h1>
+                </div>
+            </div>
+        )
+    }
+
 
 }
 
